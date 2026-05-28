@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-go install github.com/stay-foolish-forever/hello-go@latest
+go install github.com/stay-foolish-forever/hello-go/cmd/greet@latest
 ```
 
 ## 使用
@@ -13,7 +13,7 @@ go install github.com/stay-foolish-forever/hello-go@latest
 安装后直接运行：
 
 ```bash
-hello-go
+greet
 ```
 
 每次执行会随机打印一条问候语，带给你一天的好心情！
